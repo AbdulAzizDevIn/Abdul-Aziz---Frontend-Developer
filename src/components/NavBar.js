@@ -17,7 +17,7 @@ export const NavBar = () => {
 
           {/* Navbar Links */}
           <nav
-            className="flex space-x-10 text-white text-base border border-transparent rounded-[48px] w-[653px] h-[64px] flex-shrink-0 py-4 px-32"
+            className="flex space-x-10 text-white text-base border border-transparent rounded-[48px] w-[700px] h-[64px] flex-shrink-0 py-4 px-32"
             style={{ color: "#b0faff", background: "rgba(12, 43, 47, 0.70)" }}
           >
             <a href="#features" className="hover:underline">
