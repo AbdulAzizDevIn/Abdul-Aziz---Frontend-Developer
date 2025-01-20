@@ -17,7 +17,8 @@ import container from "../dataPNG/Container.png";
 import plus from "../dataPNG/plus.png";
 export const Home = () => {
   return (
-    <main className="relative z-10 text-white h-screen bg-opacity-50">
+    <>
+    <main className="relative h-[100%] text-white bg-opacity-50">
       <div className="flex flex-col justify-center items-center h-screen max-w-[1200px] mx-auto text-white">
         <div className="w-full flex justify-center items-center text-7xl">
           When Innovation
@@ -381,5 +382,7 @@ export const Home = () => {
         </div>
       </div>
     </main>
+    </>
+    
   );
 };
