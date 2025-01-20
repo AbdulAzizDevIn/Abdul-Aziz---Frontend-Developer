@@ -28,9 +28,7 @@ export const Home = () => {
             <img
               src={investment}
               alt=""
-              style={{
-                width: window.innerWidth >= 768 ? "25rem" : "6rem", 
-              }}
+              className="w-[15rem] sm:w-[25rem]"
             />
           </div>
           <div className="text-[16px] sm:text-[18px] md:text-[20px] mt-5 text-[#B0FAFFB2]">
@@ -192,152 +190,151 @@ export const Home = () => {
         </div>
         {/*Container-4*/}
         <div
-  id="roadmap"
-  className="bg-[#00161d] pt-60 flex flex-col justify-center items-center self-stretch"
->
-  <div className="text-white text-center font-[Space_Grotesk] text-[40px] font-medium leading-[44px] tracking-[-0.8px]">
-    Roadmap
-  </div>
+          id="roadmap"
+          className="bg-[#00161d] pt-60 flex flex-col justify-center items-center self-stretch"
+        >
+          <div className="text-white text-center font-[Space_Grotesk] text-[40px] font-medium leading-[44px] tracking-[-0.8px]">
+            Roadmap
+          </div>
 
-  {/* Phase 1 */}
-  <div className="flex flex-wrap px-[120px] py-[64px] justify-center items-center self-stretch">
-    <div className="flex flex-col items-start gap-[20px] w-full sm:w-[534.66px] flex-shrink-0">
-      <img src={phase1} alt="" />
-      <div className="text-white text-center pb-5 text-[40px] font-medium leading-[44px] tracking-[-0.8px]">
-        Kicking Off
-      </div>
-      <div className="gap-[16px] flex flex-col items-start">
-        <div className="flex items-center gap-[10px]">
-          <img src={rightLogo} alt="" />
-          <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-            Launch of EthAi: Officially
-          </p>
-        </div>
-        <div className="flex items-center gap-[10px]">
-          <img src={rightLogo} alt="" />
-          <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-            Development of Core AI Agents
-          </p>
-        </div>
-        <div className="flex items-center gap-[10px]">
-          <img src={rightLogo} alt="" />
-          <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-            User Onboarding Campaign
-          </p>
-        </div>
-        <div className="flex items-center gap-[10px]">
-          <img src={rightLogo} alt="" />
-          <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-            Community Engagement Initiatives
-          </p>
-        </div>
-      </div>
-    </div>
-    <div className="flex flex-col items-start gap-[20px] w-full sm:w-[800px] flex-shrink-0">
-      <video
-        className="w-full h-auto rounded-xl mask-edge-blend"
-        autoPlay
-        loop
-        muted
-        playsInline
-        src={prev1}
-      />
-    </div>
-  </div>
+          {/* Phase 1 */}
+          <div className="flex flex-wrap px-[120px] py-[64px] justify-center items-center self-stretch">
+            <div className="flex flex-col items-start gap-[20px] w-full sm:w-[534.66px] flex-shrink-0">
+              <img src={phase1} alt="" />
+              <div className="text-white text-center pb-5 text-[40px] font-medium leading-[44px] tracking-[-0.8px]">
+                Kicking Off
+              </div>
+              <div className="gap-[16px] flex flex-col items-start">
+                <div className="flex items-center gap-[10px]">
+                  <img src={rightLogo} alt="" />
+                  <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
+                    Launch of EthAi: Officially
+                  </p>
+                </div>
+                <div className="flex items-center gap-[10px]">
+                  <img src={rightLogo} alt="" />
+                  <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
+                    Development of Core AI Agents
+                  </p>
+                </div>
+                <div className="flex items-center gap-[10px]">
+                  <img src={rightLogo} alt="" />
+                  <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
+                    User Onboarding Campaign
+                  </p>
+                </div>
+                <div className="flex items-center gap-[10px]">
+                  <img src={rightLogo} alt="" />
+                  <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
+                    Community Engagement Initiatives
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col items-start gap-[20px] w-full sm:w-[800px] flex-shrink-0">
+              <video
+                className="w-full h-auto rounded-xl mask-edge-blend"
+                autoPlay
+                loop
+                muted
+                playsInline
+                src={prev1}
+              />
+            </div>
+          </div>
 
-  {/* Phase 2 */}
-  <div className="flex flex-wrap px-[120px] py-[64px] justify-around items-center self-stretch">
-    <div className="flex flex-col items-start gap-[20px] w-full sm:w-[800px] flex-shrink-0">
-      <video
-        className="w-full h-auto rounded-xl mask-edge-blend"
-        autoPlay
-        loop
-        muted
-        playsInline
-        src={prev2}
-      />
-    </div>
-    <div className="flex flex-col items-start gap-[20px] w-full sm:w-[534.66px] flex-shrink-0">
-      <img src={phase2} alt="" />
-      <div className="text-white text-center pb-5 text-[40px] font-medium leading-[44px] tracking-[-0.8px]">
-        Bigger Insights
-      </div>
-      <div className="gap-[16px] flex flex-col items-start">
-        <div className="flex items-center gap-[10px]">
-          <img src={rightLogo} alt="" />
-          <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-            Introduction of Advanced AI Agents
-          </p>
-        </div>
-        <div className="flex items-center gap-[10px]">
-          <img src={rightLogo} alt="" />
-          <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-            Strategic Partnerships
-          </p>
-        </div>
-        <div className="flex items-center gap-[10px]">
-          <img src={rightLogo} alt="" />
-          <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-            User Interface Optimization
-          </p>
-        </div>
-        <div className="flex items-center gap-[10px]">
-          <img src={rightLogo} alt="" />
-          <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-            Comprehensive Marketing Campaign
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+          {/* Phase 2 */}
+          <div className="flex flex-wrap px-[120px] py-[64px] justify-around items-center self-stretch">
+            <div className="flex flex-col items-start gap-[20px] w-full sm:w-[800px] flex-shrink-0">
+              <video
+                className="w-full h-auto rounded-xl mask-edge-blend"
+                autoPlay
+                loop
+                muted
+                playsInline
+                src={prev2}
+              />
+            </div>
+            <div className="flex flex-col items-start gap-[20px] w-full sm:w-[534.66px] flex-shrink-0">
+              <img src={phase2} alt="" />
+              <div className="text-white text-center pb-5 text-[40px] font-medium leading-[44px] tracking-[-0.8px]">
+                Bigger Insights
+              </div>
+              <div className="gap-[16px] flex flex-col items-start">
+                <div className="flex items-center gap-[10px]">
+                  <img src={rightLogo} alt="" />
+                  <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
+                    Introduction of Advanced AI Agents
+                  </p>
+                </div>
+                <div className="flex items-center gap-[10px]">
+                  <img src={rightLogo} alt="" />
+                  <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
+                    Strategic Partnerships
+                  </p>
+                </div>
+                <div className="flex items-center gap-[10px]">
+                  <img src={rightLogo} alt="" />
+                  <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
+                    User Interface Optimization
+                  </p>
+                </div>
+                <div className="flex items-center gap-[10px]">
+                  <img src={rightLogo} alt="" />
+                  <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
+                    Comprehensive Marketing Campaign
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-  {/* Phase 3 */}
-  <div className="flex flex-wrap px-[120px] py-[64px] justify-center items-center self-stretch">
-    <div className="flex flex-col items-start gap-[20px] w-full sm:w-[534.66px] flex-shrink-0">
-      <img src={phase3} alt="" />
-      <div className="text-white text-center pb-5 text-[40px] font-medium leading-[44px] tracking-[-0.8px]">
-        Full Power
-      </div>
-      <div className="gap-[16px] flex flex-col items-start">
-        <div className="flex items-center gap-[10px]">
-          <img src={rightLogo} alt="" />
-          <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-            Introduction of Enhanced Features
-          </p>
+          {/* Phase 3 */}
+          <div className="flex flex-wrap px-[120px] py-[64px] justify-center items-center self-stretch">
+            <div className="flex flex-col items-start gap-[20px] w-full sm:w-[534.66px] flex-shrink-0">
+              <img src={phase3} alt="" />
+              <div className="text-white text-center pb-5 text-[40px] font-medium leading-[44px] tracking-[-0.8px]">
+                Full Power
+              </div>
+              <div className="gap-[16px] flex flex-col items-start">
+                <div className="flex items-center gap-[10px]">
+                  <img src={rightLogo} alt="" />
+                  <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
+                    Introduction of Enhanced Features
+                  </p>
+                </div>
+                <div className="flex items-center gap-[10px]">
+                  <img src={rightLogo} alt="" />
+                  <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
+                    API Integration for Data Access
+                  </p>
+                </div>
+                <div className="flex items-center gap-[10px]">
+                  <img src={rightLogo} alt="" />
+                  <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
+                    Launch of Community-Driven Initiatives
+                  </p>
+                </div>
+                <div className="flex items-center gap-[10px]">
+                  <img src={rightLogo} alt="" />
+                  <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
+                    Continuous Improvement and Updates
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col items-start gap-[20px] w-full sm:w-[800px] flex-shrink-0">
+              <video
+                className="w-full h-auto rounded-xl mask-edge-blend"
+                autoPlay
+                loop
+                muted
+                playsInline
+                src={prev3}
+              />
+            </div>
+          </div>
         </div>
-        <div className="flex items-center gap-[10px]">
-          <img src={rightLogo} alt="" />
-          <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-            API Integration for Data Access
-          </p>
-        </div>
-        <div className="flex items-center gap-[10px]">
-          <img src={rightLogo} alt="" />
-          <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-            Launch of Community-Driven Initiatives
-          </p>
-        </div>
-        <div className="flex items-center gap-[10px]">
-          <img src={rightLogo} alt="" />
-          <p className="text-[#EFEFE8] text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-            Continuous Improvement and Updates
-          </p>
-        </div>
-      </div>
-    </div>
-    <div className="flex flex-col items-start gap-[20px] w-full sm:w-[800px] flex-shrink-0">
-      <video
-        className="w-full h-auto rounded-xl mask-edge-blend"
-        autoPlay
-        loop
-        muted
-        playsInline
-        src={prev3}
-      />
-    </div>
-  </div>
-</div>
-
 
         {/*Container-5*/}
         <div className="flex pt-60  justify-center p-[100px_108px_120px_141px] items-start gap-[60px] bg-[#00161D]">
