@@ -14,6 +14,7 @@ import phase2 from "../dataPNG/phase2.png";
 import phase3 from "../dataPNG/phase3.png";
 import rightLogo from "../dataPNG/rightLogo.png";
 import container from "../dataPNG/Container.png";
+import donut from "../dataPNG/Donut.png";
 import plus from "../dataPNG/plus.png";
 export const Home = () => {
   return (
@@ -25,11 +26,7 @@ export const Home = () => {
           </div>
           <div className="flex justify-between text-4xl sm:text-5xl md:text-7xl mt-4">
             <div className="mr-6">Meets</div>
-            <img
-              src={investment}
-              alt=""
-              className="w-[15rem] sm:w-[25rem]"
-            />
+            <img src={investment} alt="" className="w-[15rem] sm:w-[25rem]" />
           </div>
           <div className="text-[16px] sm:text-[18px] md:text-[20px] mt-5 text-[#B0FAFFB2]">
             Empowering Trading Through Advanced Technology
@@ -182,18 +179,83 @@ export const Home = () => {
         {/*Container-3*/}
         <div
           id="tokenomics"
-          className="bg-[#00161d] pt-60 flex flex-col justify-center items-center self-stretch"
+          className="bg-[#00161d] pt-40 flex max-w-full px-0 py-6 flex-col items-center gap-[80px] flex-1"
         >
-          <div className="flex ">
-            <img src={container} alt="" />
+          <h2 className="text-white text-center text-[40px] font-medium leading-[44px] tracking-[-0.8px]">
+            Tokenomics
+          </h2>
+          <div className="flex flex-col lg:flex-row justify-center gap-12 lg:gap-40 px-4 lg:px-[80px] items-center self-stretch">
+            <img src={donut} alt="" />
+            <div className="flex flex-col items-start gap-[44px] self-stretch">
+              <div className="flex flex-col gap-5 w-full sm:w-[500px] px-[56px] py-[12px] items-start rounded-[20px] bg-[#0c2b2f] bg-opacity-70 backdrop-blur-[7.85px]">
+                <div className="flex w-full justify-between text-white font-normal leading-[26px] tracking-[-0.1px]">
+                  <span>Name</span>
+                  <p className="flex justify-start w-40">
+                    <p className="mx-4">:</p>EthAi
+                  </p>
+                </div>
+                <div className="flex w-full justify-between text-white font-normal leading-[26px] tracking-[-0.1px]">
+                  <span>Token Name</span>
+                  <p className="flex justify-start w-40">
+                    <p className="mx-4">:</p>$EthAi
+                  </p>
+                </div>
+                <div className="flex w-full justify-between text-white font-normal leading-[26px] tracking-[-0.1px]">
+                  <span>Token standard</span>
+                  <p className="flex justify-start w-40">
+                    <p className="mx-4">:</p>ERC20
+                  </p>
+                </div>
+                <div className="flex w-full justify-between text-white font-normal leading-[26px] tracking-[-0.1px]">
+                  <span>Blockchain</span>
+                  <p className="flex justify-start w-40">
+                    <p className="mx-4">:</p>Ethereum
+                  </p>
+                </div>
+                <div className="flex w-full justify-between text-white font-normal leading-[26px] tracking-[-0.1px]">
+                  <span>Total Supply</span>
+                  <p className="flex justify-start w-40">
+                    <p className="mx-4">:</p>100 Million
+                  </p>
+                </div>
+                <div className="flex w-full justify-between text-white font-normal leading-[26px] tracking-[-0.1px]">
+                  <span>Tax</span>
+                  <p className="flex justify-start w-40">
+                    <p className="mx-4">:</p>5%/5%
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex flex-col gap-5 w-full sm:w-[500px] px-[56px] py-[12px] items-start rounded-[20px] bg-[#0c2b2f] bg-opacity-70 backdrop-blur-[7.85px]">
+                <div className="flex w-full justify-between text-white font-normal leading-[26px] tracking-[-0.1px]">
+                  <span>Team</span>
+                  <p className="flex justify-start w-40">
+                    <p className="mx-4">:</p>35%
+                  </p>
+                </div>
+                <div className="flex w-full justify-between text-white font-normal leading-[26px] tracking-[-0.1px]">
+                  <span>Marketing</span>
+                  <p className="flex justify-start w-40">
+                    <p className="mx-4">:</p>5%
+                  </p>
+                </div>
+                <div className="flex w-full justify-between text-white font-normal leading-[26px] tracking-[-0.1px]">
+                  <span>Liquidity Pool</span>
+                  <p className="flex justify-start w-40">
+                    <p className="mx-4">:</p>90%
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+
         {/*Container-4*/}
         <div
           id="roadmap"
           className="bg-[#00161d] pt-60 flex flex-col justify-center items-center self-stretch"
         >
-          <div className="text-white text-center font-[Space_Grotesk] text-[40px] font-medium leading-[44px] tracking-[-0.8px]">
+          <div className="text-white text-center  text-[40px] font-medium leading-[44px] tracking-[-0.8px]">
             Roadmap
           </div>
 
