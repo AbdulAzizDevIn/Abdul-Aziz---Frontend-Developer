@@ -10,10 +10,11 @@ import prev1 from "../dataPNG/prev1.mp4";
 import prev2 from "../dataPNG/prev2.mp4";
 import prev3 from "../dataPNG/prev3.mp4";
 import phase1 from "../dataPNG/phase1.png";
-import phase2 from "../dataPNG/phase2.png"; 
+import phase2 from "../dataPNG/phase2.png";
 import phase3 from "../dataPNG/phase3.png";
 import rightLogo from "../dataPNG/rightLogo.png";
 import container from "../dataPNG/Container.png";
+import plus from "../dataPNG/plus.png";
 export const Home = () => {
   return (
     <main className="relative z-10 text-white h-screen bg-opacity-50">
@@ -248,31 +249,31 @@ export const Home = () => {
           <div className="flex flex-col items-start gap-[20px] w-[534.66px] flex-shrink-0">
             <img src={phase2} alt="" />
             <div className="text-white text-center pb-5  text-[40px] font-medium leading-[44px] tracking-[-0.8px]">
-            Bigger Insights
+              Bigger Insights
             </div>
             <div className="gap-[16px] flex flex-col items-start ">
               <div className="flex items-center gap-[10px] ">
                 <img src={rightLogo} alt="" />
                 <p className="text-[#EFEFE8]  text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-                Introduction of Advanced AI Agents
+                  Introduction of Advanced AI Agents
                 </p>
               </div>
               <div className="flex items-center gap-[10px]">
                 <img src={rightLogo} alt="" />
                 <p className="text-[#EFEFE8]  text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-                Strategic Partnerships
+                  Strategic Partnerships
                 </p>
               </div>
               <div className="flex items-center gap-[10px]">
                 <img src={rightLogo} alt="" />
                 <p className="text-[#EFEFE8]  text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-                User Interface Optimization
+                  User Interface Optimization
                 </p>
               </div>
               <div className="flex items-center gap-[10px]">
                 <img src={rightLogo} alt="" />
                 <p className="text-[#EFEFE8]  text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-                Comprehensive Marketing Campaign
+                  Comprehensive Marketing Campaign
                 </p>
               </div>
             </div>
@@ -283,31 +284,31 @@ export const Home = () => {
           <div className="flex flex-col items-start gap-[20px] w-[534.66px] flex-shrink-0">
             <img src={phase3} alt="" />
             <div className="text-white text-center pb-5 text-[40px] font-medium leading-[44px] tracking-[-0.8px]">
-            Full Power
+              Full Power
             </div>
             <div className="gap-[16px] flex flex-col items-start ">
               <div className="flex items-center gap-[10px] ">
                 <img src={rightLogo} alt="" />
                 <p className="text-[#EFEFE8]  text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-                Introduction of Enhanced Features
+                  Introduction of Enhanced Features
                 </p>
               </div>
               <div className="flex items-center gap-[10px]">
                 <img src={rightLogo} alt="" />
                 <p className="text-[#EFEFE8]  text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-                API Integration for Data Access
+                  API Integration for Data Access
                 </p>
               </div>
               <div className="flex items-center gap-[10px]">
                 <img src={rightLogo} alt="" />
                 <p className="text-[#EFEFE8]  text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-                Launch of Community-Driven Initiatives
+                  Launch of Community-Driven Initiatives
                 </p>
               </div>
               <div className="flex items-center gap-[10px]">
                 <img src={rightLogo} alt="" />
                 <p className="text-[#EFEFE8]  text-[20px] font-normal leading-[26px] tracking-[-0.1px]">
-                Continuous Improvement and Updates
+                  Continuous Improvement and Updates
                 </p>
               </div>
             </div>
@@ -322,6 +323,61 @@ export const Home = () => {
               src={prev3}
             />
           </div>
+        </div>
+      </div>
+
+      <div
+        id="Container-5"
+        className="flex pt-60  justify-center p-[100px_108px_120px_141px] items-start gap-[60px] bg-[#00161D]"
+      >
+        <div className="text-[#FFF] font-[500] text-[40px] leading-[44px] tracking-[-0.8px]">
+          Frequently Asked <br /> Questions
+        </div>
+        <div>
+          <div className="flex items-center self-stretch px-0 py-5 pl-10 gap-5">
+            <img src={plus} alt="" />
+            <p>What is EthAi?</p>
+          </div>
+          <div className="flex items-center self-stretch px-0 py-5 pl-10 gap-5">
+            <img src={plus} alt="" />
+            <p>How can EthAi can help me as a Trader?</p>
+          </div>
+          <div className="flex items-center self-stretch px-0 py-5 pl-10 gap-5">
+            <img src={plus} alt="" />
+            <p>Who can use EthAi?</p>
+          </div>
+          <div className="flex items-center self-stretch px-0 py-5 pl-10 gap-5">
+            <img src={plus} alt="" />
+            <p>How does EthAi track smart money flow?</p>
+          </div>
+          <div className="flex items-center self-stretch px-0 py-5 pl-10 gap-5">
+            <img src={plus} alt="" />
+            <p>How does ensure data security?</p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="Container-6"
+        className="bg-[#00161d] pt-40 pb-40 flex justify-center items-center self-stretch p-[32px_240px_48px_240px]"
+      >
+        <div className="flex flex-col justify-center items-center gap-7 max-w-[960px] p-[56px_156px] flex-[1_0_0] rounded-[20px] bg-[#011C24] shadow-[inset_0_0_32px_16px_rgba(99,242,255,0.1)]">
+          <h2 className="text-white text-center  text-[40px] font-medium leading-[44px] tracking-[-0.8px]">
+            Explore Our{" "}
+            <span className="text-[#62F0FE] text-[40px] font-medium leading-[44px] tracking-[-0.8px]">
+              dApp
+            </span>
+          </h2>
+          <p className="text-[rgba(176,250,255,0.7)] text-center text-[16px] font-normal leading-[24px]">
+            EthAi is an AI-powered dApp designed to help traders make smarter,
+            data-driven decisions. By tracking smart money flows, monitoring key
+            wallets, and providing real-time market insights, EthAi empowers
+            users to stay ahead of trends. The platform offers intuitive AI
+            features for asset recommendations, market analysis, and
+            personalized crypto Q&A, making it the ultimate tool for both novice
+            and experienced traders.
+          </p>
+          <button className="flex text-[#0B2A2D] font-medium w-[139.71px] p-[12px_24px] justify-center items-center rounded-[12px] bg-[#CDFCFF] shadow-[0_1px_4px_0_rgba(55,197,229,0.12),0_4px_6px_0_rgba(55,197,229,0.12),0_4px_12px_0_rgba(55,197,229,0.12),0_6px_20px_0_rgba(55,197,229,0.12),0_-8px_16px_-4px_rgba(55,197,229,0.60)_inset,0_0px_4px_2px_rgba(255,255,255,0.12)_inset,0_1px_1px_0px_#4CDDFD_inset,0_0px_1px_1px_#4CDDFD_inset]">Open dApp</button>
         </div>
       </div>
     </main>
