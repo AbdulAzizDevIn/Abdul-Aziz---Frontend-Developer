@@ -34,8 +34,8 @@ export const Home = () => {
           Open dApp
         </button>
       </div>
-
-      <div id="Container-1" className="bg-[#00161d] ">
+{/*Container-1*/}
+      <div id="features" className="bg-[#00161d] ">
         <div className="pt-[80px]  flex  justify-center items-center p-[32px_120px_40px_120px] gap-[16px] self-stretch">
           <div className="flex justify-between rounded-tl-[56px] rounded-tr-[16px] rounded-br-[16px] rounded-bl-[16px] bg-[rgba(12,43,47,0.7)] w-[280px] h-[504px] p-[72px_37px_32px_37px] flex-col items-center shrink-0flex w-[280px] h-[504px] p-[72px_37px_32px_37px] flex-col items-center shrink-0 border-[1px] border-[#0F373C] hover:shadow-[inset_0px_1px_25px_0px_rgba(29,206,242,0.25)]  transition-shadow duration-300">
             <div>
@@ -106,10 +106,10 @@ export const Home = () => {
           </div>
         </div>
       </div>
-
+{/*Container-2*/}
       <div
-        id="Container-2"
-        className="bg-[#00161d] flex flex-col pt-[100px] justify-center items-center self-stretch"
+        id="why-us"
+        className=" bg-[#00161d] flex flex-col pt-[100px] justify-center items-center self-stretch"
       >
         <h2 className="text-white text-center font-space-grotesk text-[40px] font-medium leading-[44px] tracking-[-0.8px]">
           About EthAi
@@ -173,17 +173,18 @@ export const Home = () => {
           </div>
         </div>
       </div>
+      {/*Container-3*/}
       <div
-        id="Container-3"
+        id="tokenomics"
         className="bg-[#00161d] pt-60 flex flex-col justify-center items-center self-stretch"
       >
         <div className="flex ">
           <img src={container} alt="" />
         </div>
       </div>
-
+{/*Container-4*/}
       <div
-        id="Container-4"
+        id="roadmap"
         className="bg-[#00161d] pt-60 flex flex-col justify-center items-center self-stretch"
       >
         <div className="text-white text-center font-[Space_Grotesk] text-[40px] font-medium leading-[44px] tracking-[-0.8px]">
@@ -326,9 +327,9 @@ export const Home = () => {
           </div>
         </div>
       </div>
-
+{/*Container-5*/}
       <div
-        id="Container-5"
+        
         className="flex pt-60  justify-center p-[100px_108px_120px_141px] items-start gap-[60px] bg-[#00161D]"
       >
         <div className="text-[#FFF] font-[500] text-[40px] leading-[44px] tracking-[-0.8px]">
@@ -357,9 +358,9 @@ export const Home = () => {
           </div>
         </div>
       </div>
-
+{/*Container-6*/}
       <div
-        id="Container-6"
+      
         className="bg-[#00161d] pt-40 pb-40 flex justify-center items-center self-stretch p-[32px_240px_48px_240px]"
       >
         <div className="flex flex-col justify-center items-center gap-7 max-w-[960px] p-[56px_156px] flex-[1_0_0] rounded-[20px] bg-[#011C24] shadow-[inset_0_0_32px_16px_rgba(99,242,255,0.1)]">

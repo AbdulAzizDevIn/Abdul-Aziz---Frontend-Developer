@@ -6,6 +6,7 @@ import facebook from "../dataPNG/facebook.png";
 import discord from "../dataPNG/discord.png";
 export const Footer = () => {
   return (
+    <>
     <footer className="flex justify-between pt-20 pb-20 z-10 items-center self-stretch px-[66px] bg-[#010F14]">
       <div className="flex flex-col gap-8">
         <div className="inline-flex items-center gap-4">
@@ -39,6 +40,10 @@ export const Footer = () => {
           </button>
         </div>
       </div>
+      
     </footer>
+    <div className="bg-[#010F14] font-medium justify-center items-center text-white flex">Developed by Abdul Aziz</div>
+    </>
+    
   );
 };
